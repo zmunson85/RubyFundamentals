@@ -52,21 +52,21 @@
 # end
 # puts say_hello "oscar", "eduardo" 
 
-def say_hello name1, name2
-  if name1.empty? or name2.empty?
-    return "Who are you?!"
-  end
-  # Doesn't reach the last line because we used return
-  "hello, #{name1} and #{name2}"
-end
-puts say_hello "", ""
+# def say_hello name1, name2
+#   if name1.empty? or name2.empty?
+#     return "Who are you?!"
+#   end
+#   # Doesn't reach the last line because we used return
+#   "hello, #{name1} and #{name2}"
+# end
+# puts say_hello "", ""
 
-age = 45
-if age >= 21
+age = 40
+if age == 21
   puts "Welcome to the party"
+elsif age >35
+  puts "Take it easy , y'all a bit old for house parties..."
 else
   puts "Not yet, you need to be 21 or older Kid!"
-
-if age <= 35
-    puts "Take It easy Grandpa, they are much younger than you!"
+  
 end
